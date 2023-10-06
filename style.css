@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Passion One', cursive;
+
+}
+
+body {
+  background-color: #191A19;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+}
+
+.info {
+  background-color: #143C22;
+  width: 250px;
+  height: 930px;
+}
+
+.right{
+  width: 100%;
+}
+
+.top{
+  display: flex;
+  flex-direction: row;
+  padding: 24px;
+}
+
+#logo {
+  height: 100px;
+  width: 100px;
+}
+
+.pesquisa {
+  padding-top: 25px;
+  padding-left: 20px;
+  color: #4E9F3D;
+  cursor: pointer;
+  line-height: 1.8;
+  padding-bottom: 10px;
+}
+
+.pesquisa a {
+  color: #4E9F3D;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.pesquisa p {
+  font-size: 20px;
+}
+
+.usuario {
+  padding-top: 10px;
+  padding-left: 20px;
+  color: #4E9F3D;
+  cursor: pointer;
+  line-height: 1.8;
+  font-size: 20px;
+}
+
+.linha {
+  width: 210px;
+  border: 1px solid #D8E9A8;
+  margin-left: 20px;
+}
+
+.conf {
+  padding-top: 500px;
+  padding-left: 50px;
+  color: #4E9F3D;
+  cursor: pointer;
+  line-height: 1.8;
+}
+
+.botao {
+  background-color: white;
+  display: grid;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%; 
+  border-color: #4E9F3D;
+  border-style: solid;
+  cursor: pointer;
+}
+.b1{
+
+}
+.b2{
+
+}
+
+.principais {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  width: 98%;
+  padding-left: 2.5%;
+  cursor: pointer;
+}
+
+.principais div {
+  border: 1px solid #1FD660;
+  border-radius: 5px;
+  background-color: #4E9F3D;
+  padding: 1.5em;
+  color: #D8E9A8;
+}
+
+.principais p {
+  padding-left: 120px;
+
+}
+
+.saudade {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding-left: 2.5%;
+  cursor: pointer;
+  padding-top: 150px;
+  width: 100%;
+}
+
+.saudade div {
+  border: 1px solid #1FD660;
+  border-radius: 5px;
+  background-color: #4E9F3D;
+  padding-top: 15em;
+  color: #D8E9A8;
+  height: 300px;
+  width: 15%;
+}
