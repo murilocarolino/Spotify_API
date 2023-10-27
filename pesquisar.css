@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Passion One', cursive;
+
+}
+
+body {
+  background-color: #191A19;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.info {
+  background-color: #143C22;
+  width: 250px;
+  height: 930px;
+}
+
+.pesquisa {
+  padding-top: 25px;
+  padding-left: 20px;
+  color: #4E9F3D;
+  cursor: pointer;
+  line-height: 1.8;
+  padding-bottom: 10px;
+}
+
+.pesquisa a {
+  color: #4E9F3D;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.pesquisa p {
+  font-size: 20px;
+}
+
+.usuario {
+  padding-top: 10px;
+  padding-left: 20px;
+  color: #4E9F3D;
+  cursor: pointer;
+  line-height: 1.8;
+  font-size: 20px;
+}
+
+.linha {
+  width: 170px;
+  border: 1px solid #D8E9A8;
+  margin-left: 20px;
+}
+
+.conf {
+  padding-top: 500px;
+  padding-left: 50px;
+  color: #4E9F3D;
+  cursor: pointer;
+  line-height: 1.8;
+}
+
+.right {
+  height: 10px;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+}
+
+#logo {
+  height: 100px;
+  width: 100px;
+}
+
+.botoes{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.barra {
+  background-color: #4E9F3D;
+  border-radius: 15px;
+  border-color: white;
+  border-style: solid;
+  width: 90%;
+  height: 50px;
+  margin-left: 42px;
+  padding-left: 30px;
+}
+
+.barra p {
+  padding-top: -10px;
+  padding-left: 10px;
+  color: #D8E9A8;
+  cursor: pointer;
+  line-height: 1.3;
+  font-size: 35px;
+}
+
+.sugestao {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 45px;
+  width: 97.2%;
+  padding-left: 2.5%;
+  cursor: pointer;
+}
+
+.sugestao div {
+  border: 2px solid #1FD660;
+  border-radius: 45px;
+  background-color: #4E9F3D;
+  padding: 1em;
+  color: #D8E9A8;
+  position: relative;
+  border-color: white;
+  border-style: solid;
+}
+
+.sugestao p {
+  padding-left: 60px;
+}
+
+.texto {
+  padding-top: 10px;
+  padding-left: 50px;
+  color: #4E9F3D;
+  cursor: pointer;
+  line-height: 2.5;
+  font-size: 35px;
+}

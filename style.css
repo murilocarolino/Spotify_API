@@ -12,7 +12,7 @@ body {
   background-color: #191A19;
 }
 
-main{
+main {
   display: flex;
   flex-direction: row;
 }
@@ -20,14 +20,14 @@ main{
 .info {
   background-color: #143C22;
   width: 250px;
-  height: 930px;
+  height: 1050px;
 }
 
-.right{
+.right {
   width: 100%;
 }
 
-.top{
+.top {
   display: flex;
   flex-direction: row;
   padding: 24px;
@@ -67,7 +67,7 @@ main{
 }
 
 .linha {
-  width: 210px;
+  width: 170px;
   border: 1px solid #D8E9A8;
   margin-left: 20px;
 }
@@ -85,17 +85,15 @@ main{
   display: grid;
   width: 40px;
   height: 40px;
-  border-radius: 100%; 
+  border-radius: 100%;
   border-color: #4E9F3D;
   border-style: solid;
   cursor: pointer;
 }
-.b1{
 
-}
-.b2{
+.b1 {}
 
-}
+.b2 {}
 
 .principais {
   display: grid;
@@ -112,11 +110,20 @@ main{
   background-color: #4E9F3D;
   padding: 1.5em;
   color: #D8E9A8;
+  position: relative;
+}
+
+.principais div img {
+  position: absolute;
+  width: 12.3%;
+  height: auto;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
 }
 
 .principais p {
-  padding-left: 120px;
-
+  padding-left: 60px;
 }
 
 .saudade {
@@ -125,7 +132,7 @@ main{
   gap: 15px;
   padding-left: 2.5%;
   cursor: pointer;
-  padding-top: 150px;
+  padding-top: 100px;
   width: 100%;
 }
 
@@ -135,6 +142,135 @@ main{
   background-color: #4E9F3D;
   padding-top: 15em;
   color: #D8E9A8;
-  height: 300px;
+  height: 330px;
   width: 15%;
+}
+
+.um img {
+  position: absolute;
+  width: 10.5%;
+  height: auto;
+  top: 39%;
+  left: 15%;
+  border-radius: 5px;
+}
+
+.dois img {
+  position: absolute;
+  width: 10.5%;
+  height: auto;
+  top: 39%;
+  left: 28.7%;
+  border-radius: 5px;
+}
+
+.tres img {
+  position: absolute;
+  width: 10.5%;
+  height: auto;
+  top: 39%;
+  left: 42.4%;
+  border-radius: 5px;
+}
+
+.quatro img {
+  position: absolute;
+  width: 10.5%;
+  height: auto;
+  top: 39%;
+  left: 56.1%;
+  border-radius: 5px;
+}
+
+.cinco img {
+  position: absolute;
+  width: 10.5%;
+  height: auto;
+  top: 39%;
+  left: 69.8%;
+  border-radius: 5px;
+}
+
+.seis img {
+  position: absolute;
+  width: 10.5%;
+  height: auto;
+  top: 39%;
+  left: 83.55%;
+  border-radius: 5px;
+}
+
+.saudade p {
+  padding-left: 30px;
+  font-size: larger;
+}
+
+.podcast {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding-left: 2.5%;
+  cursor: pointer;
+  padding-top: 100px;
+  width: 100%;
+}
+
+.podcast div {
+  border: 1px solid #1FD660;
+  border-radius: 5px;
+  background-color: #4E9F3D;
+  padding-top: 15em;
+  color: #D8E9A8;
+  height: 10px;
+  width: 23%;
+}
+
+.podUm img {
+  position: absolute;
+  width: 8.5%;
+  height: auto;
+  top: 84.7%;
+  left: 15%;
+  border-radius: 5px;
+}
+
+.podUm img {
+  position: absolute;
+  width: 8.5%;
+  height: auto;
+  top: 84.7%;
+  left: 15%;
+  border-radius: 5px;
+}
+
+.podDois img {
+  position: absolute;
+  width: 8.5%;
+  height: auto;
+  top: 84.7%;
+  left: 35.5%;
+  border-radius: 5px;
+}
+
+.podTres img {
+  position: absolute;
+  width: 8.5%;
+  height: auto;
+  top: 84.7%;
+  left: 56.2%;
+  border-radius: 5px;
+}
+
+.podQuatro img {
+  position: absolute;
+  width: 8.5%;
+  height: auto;
+  top: 84.7%;
+  left: 76.8%;
+  border-radius: 5px;
+}
+
+.podcast p {
+  padding-left: 30px;
+  font-size: larger;
 }
